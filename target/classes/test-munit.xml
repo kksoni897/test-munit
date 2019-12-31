@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="6bfc4ab2-833a-4386-ac2e-0535d4f003b9" >
+		<http:listener-connection host="0.0.0.0" port="8081" />
+	</http:listener-config>
+	<flow name="test-munitFlow" doc:id="53aa5e1a-9086-4cce-bc9f-9b8eb425c37b" >
+		<http:listener doc:name="Listener" doc:id="4eebe5a3-2d8e-40d8-b231-04524fe87bfe" path="/munit" config-ref="HTTP_Listener_config"/>
+		<set-payload value='#["I am Done"]' doc:name="Set Payload" doc:id="81f03256-e214-4165-b45f-90b48872d05b" />
+	</flow>
+</mule>
