@@ -4,6 +4,7 @@
 	<classpathentry kind="con" path="MULE_LIB/com.mulesoft.munit/munit-runner/2.2.1"/>
 	<classpathentry kind="con" path="MULE_LIB/org.mule.connectors/mule-sockets-connector/1.1.5"/>
 	<classpathentry kind="con" path="MULE_LIB/org.mule.connectors/mule-http-connector/1.5.11"/>
+	<classpathentry kind="con" path="org.mule.tooling.MULE_PROJECT_LIB"/>
 	<classpathentry kind="con" path="org.mule.tooling.API_SPEC_LIB/com.fasterxml.jackson.core/jackson-core/2.9.2"/>
 	<classpathentry kind="con" path="org.mule.tooling.API_SPEC_LIB/org.mule.distributions/mule-services-all/4.0.0"/>
 	<classpathentry kind="con" path="org.mule.tooling.API_SPEC_LIB/net.sf.jopt-simple/jopt-simple/5.0.3"/>
@@ -177,7 +178,6 @@
 	<classpathentry kind="con" path="org.mule.tooling.API_SPEC_LIB/org.apache.xmlbeans/xmlbeans/2.6.0"/>
 	<classpathentry kind="con" path="org.mule.tooling.API_SPEC_LIB/org.mule.runtime/mule-message-metadata-model/1.0.0"/>
 	<classpathentry kind="con" path="org.mule.tooling.API_SPEC_LIB/org.typelevel/machinist_2.12/0.6.1"/>
-	<classpathentry kind="con" path="org.mule.tooling.MULE_PROJECT_LIB"/>
 	<classpathentry exported="true" kind="con" path="MULE_RUNTIME/org.mule.tooling.server.4.2.2.ee"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="src/main/mule"/>
