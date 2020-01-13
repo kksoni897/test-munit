@@ -32,17 +32,6 @@
 						<muleHome>C:\mulestudio\mule-enterprise-standalone-4.2.2</muleHome>
 						<muleVersion>${app.runtime}</muleVersion>
 					</standaloneDeployment>
-					<cloudHubDeployment>
-						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>4.2.2</muleVersion>
-						<username>muleone</username>
-						<password>Apr#3019</password>
-						<applicationName>test-munit-app</applicationName>
-						<environment>Sandbox</environment>
-						<objectStoreV2>true</objectStoreV2>
-						<workers>1</workers>
-						<workerType>Micro</workerType>
-					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 			<plugin>
